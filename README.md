@@ -128,3 +128,33 @@ The resulting Dataframe should be named : `bikes_df`
 
 bikes_df.isna().any()
 ~~~
+
+~~~python
+# counting the number of missing values
+total_number_of_missing_values_by_column=bikes_df.isna().sum()
+total_number_of_missing_values_by_column
+~~~
+
+~~~python
+# visualizing the toal number of missing values 
+
+import matplotlib.pyplot as plt
+
+# using the bar plot to visualize the missin values 
+
+total_number_of_missing_values_by_column.plot(kind="bar")
+
+# to show the plot
+
+plt.show
+~~~
+
+- **2.Handling Missing values**:
+~~~python
+# solution 
+
+bikes_df=bikes_df.fillna("Black")
+
+bikes_df
+
+~~~
