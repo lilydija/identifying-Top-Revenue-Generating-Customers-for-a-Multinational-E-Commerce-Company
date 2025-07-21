@@ -118,6 +118,7 @@ bikes_df.head()
 
 
 
+<img width="1105" height="278" alt="Data Pre-Processing" src="https://github.com/user-attachments/assets/cd19a578-5f22-4b41-a8eb-f06d6521df6e" />
 
 
 The resulting Dataframe should be named : `bikes_df`
