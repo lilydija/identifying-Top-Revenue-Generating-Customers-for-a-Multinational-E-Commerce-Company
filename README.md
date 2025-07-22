@@ -123,13 +123,34 @@ bikes_df.head()
 ### Data Inspection and Cleaning
 
 - **1. Check for Missing values**:
+~~~python
 # solution 
 
 bikes_df.isna().any()
+~~~
+
+
+
+
+
+
+<img width="220" height="244" alt="check for missing values" src="https://github.com/user-attachments/assets/21b8f01c-eed8-4b05-b14f-3d23429fc6c7" />
+
+
+
 
 # counting the number of missing values
+~~~python
 total_number_of_missing_values_by_column=bikes_df.isna().sum()
 total_number_of_missing_values_by_column
+~~~
+
+
+
+
+
+<img width="258" height="237" alt="Number of missing values" src="https://github.com/user-attachments/assets/4a6774f2-9226-4917-9f14-682a5af12555" />
+
 
 
 # visualizing the toal number of missing values 
